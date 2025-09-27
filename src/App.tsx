@@ -18,10 +18,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-        {/* ✅ הוספת ChatBot כך שיופיע בכל העמודים */}
-        <div className="chatbot-wrapper">
-          <ChatBot />
-        </div>
+
 
 
         <Routes>
